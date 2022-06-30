@@ -11,7 +11,7 @@ using System;
 namespace inventario
 {
     class Program
-    {
+    { // Lista de productos
         static string[,] productos = new string[5,3]
         {
             { "001", "iPhoneX", "0" },
@@ -49,6 +49,7 @@ namespace inventario
             }
         }
 
+        //Ingresar producto
         static void ingresoDeInventario() {
             string codigo = "";
             string cantidad = "";
@@ -66,6 +67,7 @@ namespace inventario
             movimientoInventario(codigo, Int32.Parse(cantidad), "+");
         }
 
+        //Salir del producto 
         static void salidaDeInventario() {
             string codigo = "";
             string cantidad = "";
@@ -82,7 +84,8 @@ namespace inventario
 
             movimientoInventario(codigo, Int32.Parse(cantidad), "-");
         }
-        
+    
+        //Se quitara una cantidad deceada a un producto 
         static void ajusteNegativoDelInventario() {
             string codigo = "";
             string cantidad = "";
@@ -100,6 +103,7 @@ namespace inventario
             movimientoInventario(codigo, Int32.Parse(cantidad), "-");
         }
 
+        //Se agregara una cantidad deceada a un producto 
         static void ajustePositivoDelInventario() {
             string codigo = "";
             string cantidad = "";
@@ -120,7 +124,8 @@ namespace inventario
         static void Main(string[] args)
         {
             string opcion = "";
-
+            
+            //Menu 
             while (true)
             {
                 Console.Clear();
@@ -135,6 +140,7 @@ namespace inventario
                 Console.WriteLine("0 - Salir");
                 opcion = Console.ReadLine();
 
+                
                 switch (opcion)
                 {
                     case "1": 
