@@ -1,10 +1,10 @@
 ﻿/* 
-    Autor: JonatÃ¡n Amaya
+    Autor: Jonatan Amaya
     Universidad: UNAH-VS
-    Carrera: Licenciatura en InformÃ¡tica Administrativa
+    Carrera: Licenciatura en Informatica Administrativa
     Hora: 18:00 - 19:00
-    CatedrÃ¡tico: Lic. billy fernandez
-    Clase: Lenguaje de ProgramaciÃ³n II
+    Catedratico: Lic. Billy Fernandez
+    Clase: Lenguaje de Programacion II
 */ 
 using System;
 
@@ -85,7 +85,7 @@ namespace inventario
             movimientoInventario(codigo, Int32.Parse(cantidad), "-");
         }
     
-        //Se quitara una cantidad deceada a un producto 
+        //Se quitara una cantidad deseada a un producto 
         static void ajusteNegativoDelInventario() {
             string codigo = "";
             string cantidad = "";
@@ -103,7 +103,7 @@ namespace inventario
             movimientoInventario(codigo, Int32.Parse(cantidad), "-");
         }
 
-        //Se agregara una cantidad deceada a un producto 
+        //Se agregara una cantidad deseada a un producto 
         static void ajustePositivoDelInventario() {
             string codigo = "";
             string cantidad = "";
@@ -140,7 +140,7 @@ namespace inventario
                 Console.WriteLine("0 - Salir");
                 opcion = Console.ReadLine();
 
-                
+
                 switch (opcion)
                 {
                     case "1": 
