@@ -1,4 +1,12 @@
-﻿using System;
+﻿/* 
+    Autor: Jonatan Amaya
+    Universidad: UNAH-VS
+    Carrera: Licenciatura en Informatica Administrativa
+    Hora: 18:00 - 19:00
+    Catedratico: Lic. Billy Fernandez
+    Clase: Lenguaje de Programacion II
+*/ 
+using System;
 
 namespace propiedades
 {

@@ -1,3 +1,12 @@
+/* 
+    Autor: Jonatan Amaya
+    Universidad: UNAH-VS
+    Carrera: Licenciatura en Informática Administrativa
+    Hora: 18:00 - 19:00
+    Catedrático: Lic. Billy Fernández
+    Clase: Lenguaje de Programación II
+*/ 
+
 using System;
 using System.Collections.Generic;
 
