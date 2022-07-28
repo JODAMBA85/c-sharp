@@ -52,6 +52,9 @@ public class DatosdePrueba
 
         Producto p7 = new Producto(7, "Impresora Epson L3050", 5900);
         ListadeProductos.Add(p7);
+
+        Producto p8 = new Producto(8, "Mouse bluetooth", 300);
+        ListadeProductos.Add(p8);
     }
 
     private void cargarClientes()
