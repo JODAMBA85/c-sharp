@@ -1,10 +1,10 @@
 /* 
-    Autor: Jonatan Amaya
+    Autor: Jonatán Amaya
     Universidad: UNAH-VS
-    Carrera: Licenciatura en Informatica Administrativa
+    Carrera: Licenciatura en Informática Administrativa
     Hora: 18:00 - 19:00
-    Catedratico: Lic. Billy Fernandez
-    Clase: Lenguaje de Programacion II
+    Catedrático: Lic. billy fernandez
+    Clase: Lenguaje de Programación II
 */ 
 
 using System;
@@ -47,26 +47,26 @@ public class DatosdePrueba
 
     private void cargarClientes()
     {
-        Cliente c1 = new Cliente(1, "Juan", "77777");
+        Cliente c1 = new Cliente(1, "Antonio", "3398-5489");
         ListadeClientes.Add(c1);
 
-        Cliente c2 = new Cliente(2, "Pedro", "99999");
+        Cliente c2 = new Cliente(2, "Elson", "9857-2030");
         ListadeClientes.Add(c2);
 
-        Cliente c3 = new Cliente(3, "Mariano", "9999-0000");
+        Cliente c3 = new Cliente(3, "Fernando", "3236-7328");
         ListadeClientes.Add(c3);
 
     }
 
     private void cargarVendedores()
     {
-        Vendedor v1 = new Vendedor(1, "Jose", "V001");
+        Vendedor v1 = new Vendedor(1, "Brian", "V001");
         ListadeVendedores.Add(v1);
 
-        Vendedor v2 = new Vendedor(2, "Pablo", "V002");
+        Vendedor v2 = new Vendedor(2, "Lester", "V002");
         ListadeVendedores.Add(v2);
 
-        Vendedor v3 = new Vendedor (3, "David", "V003");
+        Vendedor v3 = new Vendedor (3, "Stiven", "V003");
         ListadeVendedores.Add(v3);
 
     }
