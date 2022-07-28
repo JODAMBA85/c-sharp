@@ -50,7 +50,7 @@ public class DatosdePrueba
         Producto p6 = new Producto(6, "Memoria USB 128Gb ", 950);
         ListadeProductos.Add(p6);
 
-        Producto p7 = new Producto(7, "Impresora de Flujo de tinta", 5900);
+        Producto p7 = new Producto(7, "Impresora Epson L3050", 5900);
         ListadeProductos.Add(p7);
     }
 
