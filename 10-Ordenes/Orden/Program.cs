@@ -45,7 +45,7 @@ namespace _10_Ordenes
                 }
 
                 if (opcion == "0") {
-                    Console.WriteLine("Gracias por preferirnos");
+                    Console.WriteLine("TE ESPERAMOS PRONTO");
                     break;
 
                 }

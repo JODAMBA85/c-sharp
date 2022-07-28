@@ -32,10 +32,10 @@ public class DatosdePrueba
 
     private void cargarProductos()
     {
-        Producto p1 = new Producto(1, "Mouse", 250);
+        Producto p1 = new Producto(1, "Mouse", 150);
         ListadeProductos.Add(p1);
 
-        Producto p2 = new Producto(2, "Teclado", 350);
+        Producto p2 = new Producto(2, "Teclado", 550);
         ListadeProductos.Add(p2);
 
         Producto p3 = new Producto(3, "Monitor", 4000);
@@ -43,6 +43,15 @@ public class DatosdePrueba
 
         Producto p4 = new Producto(4, "Camara Web", 750);
         ListadeProductos.Add(p4);
+
+        Producto p5 = new Producto(5, "Disco Externo 1TB", 1400);
+        ListadeProductos.Add(p5);
+
+        Producto p6 = new Producto(6, "Memoria USB 128Gb ", 950);
+        ListadeProductos.Add(p6);
+
+        Producto p7 = new Producto(7, "Impresora de Flujo de tinta", 5900);
+        ListadeProductos.Add(p7);
     }
 
     private void cargarClientes()
