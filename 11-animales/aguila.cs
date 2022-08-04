@@ -6,7 +6,7 @@ public class aguila: Aves
 
     public void VolarAlto()
     {
-        Console.WriteLine("Vuelan Alto");
+        Console.WriteLine("Vuela Alto");
     }
 
    
