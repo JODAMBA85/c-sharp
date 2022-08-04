@@ -6,7 +6,7 @@ public class PezGlobo: peces
 
     public void Inflarse()
     {
-        Console.WriteLine("Pon lo que tu quieras aqui");
+        Console.WriteLine("Pez que por medio proteccion se infla y tiene veneno en muy fuerte");
     }
 
 }

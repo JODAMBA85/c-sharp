@@ -14,7 +14,7 @@ public class Mono: Mamifero
     }
     public void Uuuuuh()
     {
-        Console.WriteLine("no se como maullan los monos por eso pongo uuh");
+        Console.WriteLine("Gritos territoriales y para apareamiento");
 
     }
 
