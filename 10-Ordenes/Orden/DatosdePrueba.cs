@@ -188,10 +188,7 @@ public class DatosdePrueba
             }    
         }
 
-        Console.WriteLine("");
-        Console.WriteLine("Subtototal: " + nuevaOrden.SubTotal);
-        Console.WriteLine("ISV 15%: " + nuevaOrden.ISV);
-        Console.WriteLine("Total: " + nuevaOrden.Total);
+         
         
         Console.ReadLine();
     }
