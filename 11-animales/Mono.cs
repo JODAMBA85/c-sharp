@@ -14,7 +14,7 @@ public class Mono: Mamifero
     }
     public void Uuuuuh()
     {
-        Console.WriteLine("Gritos territoriales y para apareamiento");
+        Console.WriteLine("Es aullador por territorio y para apareamiento");
 
     }
 
